@@ -1,0 +1,154 @@
+{
+  "tests": [
+    {
+      "name": "Build with make",
+      "setup": "",
+      "run": "chmod +x test.sh && ./test.sh build",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 15
+    },
+    {
+      "name": "Command-line parsing and basic execution",
+      "setup": "",
+      "run": "chmod +x test.sh && ./test.sh basic_cli",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 15
+    },
+    {
+      "name": "Default alphabet behavior",
+      "setup": "",
+      "run": "chmod +x test.sh && ./test.sh default_alphabet",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Lowercase and uppercase flag handling",
+      "setup": "",
+      "run": "chmod +x test.sh && ./test.sh flags_lu",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Digit and symbol flag handling",
+      "setup": "",
+      "run": "chmod +x test.sh && ./test.sh flags_ds",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Custom alphabet union behavior",
+      "setup": "",
+      "run": "chmod +x test.sh && ./test.sh custom_alphabet",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Correct password count and length",
+      "setup": "",
+      "run": "chmod +x test.sh && ./test.sh pw_count_length",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Information content output",
+      "setup": "",
+      "run": "chmod +x test.sh && ./test.sh info_content",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 15
+    },
+    {
+      "name": "Binary file creation",
+      "setup": "",
+      "run": "chmod +x test.sh && ./test.sh file_created",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Binary file non-empty",
+      "setup": "",
+      "run": "chmod +x test.sh && ./test.sh file_nonempty",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Reject invalid length",
+      "setup": "",
+      "run": "chmod +x test.sh && ./test.sh invalid_length",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Reject invalid quantity",
+      "setup": "",
+      "run": "chmod +x test.sh && ./test.sh invalid_quantity",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Reject invalid flags",
+      "setup": "",
+      "run": "chmod +x test.sh && ./test.sh invalid_flags",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Clean target works",
+      "setup": "",
+      "run": "chmod +x test.sh && ./test.sh clean_target",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Required source files present",
+      "setup": "",
+      "run": "chmod +x test.sh && ./test.sh required_files",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 15
+    }
+  ]
+}
